@@ -11,16 +11,71 @@ body {
 
     background: white;
 
+    margin: 0%;
+
+    padding: 0%;
 
 }
 
 /* common style */
-
-main {
-    max-width: 90%;
+nav {
+    max-width: 1200px;
     margin: 0% auto;
 }
 
+header {
+    max-width: 100%;
+    margin: 0% auto;
+}
+
+.camera-text {
+    max-width: 1200px;
+    margin: 0% auto;
+}
+
+main {
+    max-width: 100%;
+    margin: 0% auto;
+}
+
+
+
+/* menu part */
+
+
+
+nav>.menu {
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    margin-top: 87px;
+
+
+
+
+
+}
+
+
+
+nav>.menu>#p-menu>h1 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+
+}
+
+nav>.menu>#menu-bar>a {
+    text-decoration: none;
+    margin: 1em;
+    color: #18191F;
+
+    font-size: 24px;
+    font-weight: 500;
+}
 
 
 
@@ -217,19 +272,21 @@ hr {
 
 
 
-.see-more {
-    border: 2px solid saddlebrown;
+.see-more a {
+    position: relative;
+    left: 999px;
+
     width: 99px;
     height: 24px;
 
     color: #E02C6D;
-}
 
-.see-more a {
     text-decoration: none;
-    color: #E02C6D;
-
 }
+
+
+
+
 
 
 /* Featured products */
@@ -242,6 +299,7 @@ hr {
     border: 3px solid darkblue;
 
     margin-top: 6em;
+    margin-bottom: 40px;
 }
 
 .Featured-products {
@@ -288,3 +346,38 @@ hr {
     color: #FFFFFF;
 
 }
+
+/* footer part */
+
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #0A0826;
+
+    height: 239px;
+}
+
+#footer {
+    text-align: center;
+    width: 262px;
+    height: 139px;
+    color: white;
+}
+
+#foo {}
+
+#ter {
+    margin: 2em;
+}
+
+/* }
+
+#foot #Social Link {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+} */
